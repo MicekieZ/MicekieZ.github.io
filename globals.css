@@ -1,0 +1,35 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Sharp Grotesk-Book25";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c600c809560d7000cc1dcf9/SharpGrotesk-Book25.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Thunder-ExtraBold LC";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6154abd91d0d687dc2e9843d/fonts/thunder-extraboldlc.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Sharp Grotesk-SemiBold25";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c600c809560d7000cc1dcf9/SharpGrotesk-SemiBold25.otf")
+    format("opentype");
+}
