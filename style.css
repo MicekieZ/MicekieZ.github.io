@@ -398,6 +398,7 @@
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
+  
 }
 
 .homepage-web .heading {
@@ -407,6 +408,14 @@
   overflow: hidden;
 }
 
+.homepage-web [class*='heading']:hover .text{
+  transform: translate(0, -50px);
+  color: #000000;
+}
+
+.homepage-web [class*='heading']:hover .text-2{
+  transform: translate(0, -80px);
+}
 .homepage-web .text {
   top: -1px;
   color: #000000;
@@ -418,6 +427,7 @@
   letter-spacing: 1px;
   line-height: 50px;
   white-space: nowrap;
+  transition: 0.3s;
 }
 
 .homepage-web .text-2 {
@@ -431,6 +441,8 @@
   letter-spacing: 1px;
   line-height: 50px;
   white-space: nowrap;
+  transition: 0.3s;
+  
 }
 
 .homepage-web .heading-2 {
@@ -513,8 +525,12 @@
   text-align: center;
   letter-spacing: 1px;
   line-height: 30px;
+  transition:0.3s
 }
 
+.homepage-web .HELLO-EVERYONE:hover {
+  color:#909925;
+}
 .homepage-web .FOOTER {
   display: flex;
   flex-direction: column;
@@ -612,6 +628,10 @@
   height: 50px;
   top: 131px;
   left: 329px;
+  transition:0.3s;
+}
+.homepage-web .kritistest-gmail-com:hover .text-wrapper-8{
+  color:#909925;
 }
 
 .homepage-web .text-wrapper-8 {
@@ -673,8 +693,13 @@
   border-radius: 100px;
   border: 2px solid;
   border-color: #000000;
+  transition:0.3s;
 }
 
+.homepage-web .kritistest-gmail-com-wrapper:hover {
+  border-color: #909925;
+  background-color: black;
+}
 .homepage-web .div-wrapper {
   position: relative;
   width: 188px;
@@ -696,6 +721,9 @@
   white-space: nowrap;
 }
 
+.homepage-web .kritistest-gmail-com-wrapper:hover .kritistest-gmail-com-2{
+  color: #909925;
+}
 .homepage-web .polygon-wrapper {
   position: absolute;
   width: 194px;
