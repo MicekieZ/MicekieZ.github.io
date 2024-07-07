@@ -42,6 +42,12 @@
   height: 197px;
   top: 148px;
   left: 1143px;
+  transition:0.6s
+}
+
+.homepage-web .star-icon:hover {
+	transform: rotate(-25.43deg);
+	content: url("img/star-icon-2.svg");
 }
 
 .homepage-web .div {
@@ -56,7 +62,7 @@
   position: absolute;
   width: 972px;
   height: 119px;
-  top: 0;
+  top: 50px;
   left: 25px;
   font-family: "Thunder-ExtraBold LC", Helvetica;
   font-weight: 800;
@@ -72,6 +78,11 @@
   top: 15px;
   position: absolute;
   left: 0;
+  transition:0.6s;
+}
+.homepage-web .ava:hover{
+  transform: rotate(9.7deg);
+  content: url("img/ava-2.svg");
 }
 
 .homepage-web .overlap-2 {
@@ -299,6 +310,7 @@
 .homepage-web .overlap-group-2 {
   position: relative;
   height: 39px;
+  top: -8px;
 }
 
 .homepage-web .frame-2 {
@@ -579,6 +591,8 @@
   left: 0;
 }
 
+.homepage-web .AVA {
+}
 .homepage-web .my-icon {
   height: 300px;
 }
@@ -608,18 +622,14 @@
 
 .homepage-web .group-9 {
   position: absolute;
-  width: 234px;
-  height: 206px;
-  top: 0;
+  top: -15px;
   left: 0;
+  transition: 0.6s;
 }
 
-.homepage-web .group-10 {
-  position: absolute;
-  width: 223px;
-  height: 195px;
-  top: 5px;
-  left: 5px;
+.homepage-web .my-icon:hover .group-9{
+  transform: rotate(9.7deg);
+  content: url("img/ava-tks_ava-tks-2.svg");
 }
 
 .homepage-web .kritistest-gmail-com {
@@ -628,7 +638,6 @@
   height: 50px;
   top: 131px;
   left: 329px;
-  transition:0.3s;
 }
 .homepage-web .kritistest-gmail-com:hover .text-wrapper-8{
   color:#909925;
@@ -645,13 +654,14 @@
   letter-spacing: 1px;
   line-height: 50px;
   white-space: nowrap;
+  transition: 0.6s;
 }
 
 .homepage-web .text-wrapper-9 {
   position: absolute;
   width: 681px;
   height: 119px;
-  top: 106px;
+  top: 161px;
   left: 0;
   font-family: "Thunder-ExtraBold LC", Helvetica;
   font-weight: 800;
@@ -665,7 +675,7 @@
   position: absolute;
   width: 1404px;
   height: 119px;
-  top: 318px;
+  top: 366px;
   left: 368px;
   font-family: "Thunder-ExtraBold LC", Helvetica;
   font-weight: 800;
@@ -693,12 +703,13 @@
   border-radius: 100px;
   border: 2px solid;
   border-color: #000000;
-  transition:0.3s;
+  transition: 0.6s;
 }
 
 .homepage-web .kritistest-gmail-com-wrapper:hover {
   border-color: #909925;
   background-color: #003d31;
+  transition: 0.6s
 }
 .homepage-web .div-wrapper {
   position: relative;
@@ -772,7 +783,7 @@
   position: absolute;
   width: 321px;
   height: 54px;
-  top: 0;
+  top: 12px;
   left: 267px;
   font-family: "Thunder-ExtraBold LC", Helvetica;
   font-weight: 800;
